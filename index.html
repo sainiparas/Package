@@ -1,0 +1,375 @@
+<!doctype html>
+<html>
+    <head>
+        
+         <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="X-UA-Compatible" content="IE=edge"/>
+        <script type="text/javascript" src="jsfile.js"></script>
+        <link rel="stylesheet" type="text/css" href="bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="C:\Users\hp\Desktop\package\bootstrap-theme.min.css"/>
+         <link rel="stylesheet" type="text/css" href="cs1.css"/>
+    </head>
+<body>
+  <br/>
+     <div class="container-fluid">
+           <div class="row">
+               <div class="col-lg-offset-1 col-lg-2 col-md-offset-1 col-md-2 col-sm-3 col-xs-12">
+                 <a href="index.html">  <img src="asd.jpg" class="img-responsive"/></a>
+               </div>
+
+               <div class="col-lg-offset-2 col-lg-7  col-md-9 col-sm-9 col-xs-12">
+                      <div class="cs1">
+                          <form class="form-inline">
+                              <div class="form-group">
+                                  <label style="color:white;"><b>Member Login <span class="hidden-sm hidden-xs">:</span></b></label>
+                                  <input type="text" class="form-control" placeholder="Your Name" maxlength="25"/>
+                                  <input type="password" class="form-control cs2" maxlength="15" placeholder="***************"/>
+                                   <button class="btn text-uppercase cs2"><b>login</b></button>
+                              </div>
+                          </form>
+                      </div>
+               </div>
+           </div>
+     </div>
+
+
+
+     <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+
+                  <nav class="navbar" style="background-color:darkkhaki">
+                      <div class="container-fluid">
+                            <div class="navbar-header">
+                                   <button class="navbar-toggle btn-warning" data-toggle="collapse" data-target="#abc">
+                                        <span class="icon-bar bg-warning"></span>
+                                        <span class="icon-bar bg-warning"></span>
+                                        <span class="icon-bar bg-warning"></span>
+                                   </button>
+                            </div>
+
+                            <div class="navbar-collapse collapse" id="abc" >
+                                  <ul class="nav navbar-nav">
+
+                                       <li class="dropdown"><a href="index.html" class="dropdown-toggle" data-toggle="dropdown"><b class="text-capitalize">Menu&nbsp;<span class="caret"></span></b></a>
+                                              <ul class="dropdown-menu" style="background-color:khaki;">
+
+                                                       <li><a href="javascript:enabled(return false);">Our Benefits</a></li>
+                                                       <li><a href="javascript:enabled(return false);">What Our Future Plans</a></li>
+                                                       <li><a href="javascript:enabled(return false);">Our Success</a></li>
+                                                       <li><a href="javascript:enabled(return false);">Ratings</a></li>
+                                                       <li><a href="javascript:enabled(return false);">News</a></li>
+                                                       <li><a href="javascript:enabled(return false);">Testimonials</a></li>
+                                                       <li><a href="javascript:enabled(return false);">Comments</a></li>
+
+                                              </ul>
+                                       </li>
+                                        <li class="active"><a class="cs3" href="index.html" class="text-capitalize"><b>Home</b></a></li>
+                                       <li><a class="cs3" href="about.html"><b>About</b></a></li>
+                                       <li><a class="cs3" href="service.html"><b>Services</b></a></li>
+                                       <li><a class="cs3" href="support.html"><b>Support</b></a></li>
+                                       <li><a class="cs3" href="javascript:enabled(return false);" onclick="chat()"><b>Chat</b></a></li>
+                                       <li><a class="cs3" href="history.html"><b>History</b></a></li>
+                                       <li><a class="cs3" href="contact.html"><b>Contact</b></a></li>
+                                  </ul>
+
+                               <button class="btn btn-warning  navbar-right navbar-btn" data-toggle="modal" data-target="#signup">Signup</button>
+
+
+                            </div>
+
+
+
+
+
+                      </div>
+                  </nav>
+
+
+            </div>
+        </div>
+
+
+         <div class="modal" id="signup">
+             <div class="modal-dialog">
+                 <div class="modal-content" style="background-color:darkkhaki;">
+                     <div class="modal-header">
+                        <span class="h1">Package.com</span>
+                     </div>
+
+                     <div class="modal-body">
+                         <form>
+                             <div class="form-group">
+                                 <label>FirstName</label>
+                                 <input type="text" class="form-control" placeholder="FirstName" maxlength="50"/>
+                             </div>
+
+                             <div class="form-group">
+                                 <label>LastName</label>
+                                 <input type="text" class="form-control"placeholder="LastName" maxlength="50"/>
+                             </div>
+
+                             <div class="form-group">
+                                 <label>Email</label>
+                                 <input type="email" class="form-control"placeholder="Email" maxlength="50"/>
+                             </div>
+
+                               <div class="form-group">
+                                 <label>Password</label>
+                                 <input type="password" class="form-control" placeholder="password" maxlength="50"/>
+                             </div>
+
+                             <div>
+                                 <label class="text-capitalize">Gender</label>
+                                  <div>
+                                 <label class="radio-inline text-capitalize"><input type="radio" name="gender"/>Male</label>
+                                  <label class="radio-inline  text-capitalize"><input type="radio" name="gender"/>Female</label>
+                                 <label class="radio-inline  text-capitalize"><input type="radio" name="gender"/>Transgender</label>
+                               </div>
+                               <br/>
+                             </div>
+
+                             <div class="form-group">
+                               <label>Contact</label>
+                               <input type="text" class="form-control" placeholder="Contact Number" maxlength="50"/>
+                           </div>
+
+
+                           <div class="form-group">
+                             <label>Address</label>
+                             <textarea class="form-control" rows="3" placeholder="Address" maxlength="300"></textarea>
+                         </div>
+                         </form>
+                     </div>
+
+                     <div class="modal-footer">
+                        <button class="btn btn-default pull-right" data-dismiss="modal" style="margin-left:2px;">Cancel</button>
+
+                        <button class="btn btn-success pull-right">Submit</button>
+
+                     </div>
+                 </div>
+             </div>
+         </div>
+
+
+
+
+
+      <div class="container" >
+           <div class="row cs4">
+               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                  <br/>
+                  <br/>
+                  <div>
+                  <span class="h1 text-capitalize" style="border-bottom:1px dotted black; font-family:Agency FB;">our companies main features&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                </div>
+                  <br/>
+               </div>
+
+
+               <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" >
+                 <div class="cs10">
+                      <table class="table">
+                          <tr>
+                            <td class="bg-danger cs5">Latest FAQ`s</td>
+                          </tr>
+                      </table>
+                      <ul class="cs6" >
+                            <li><a style="text-decoration:none;" href="javascript:enabled(return false);">Business planning, investment and loan and other</a></li>
+
+                            <li><a style="text-decoration:none;" href="javascript:enabled(return false);">Financial help, loan like car loan, home loan etc.</a></li>
+
+                            <li><a style="text-decoration:none;" href="javascript:enabled(return false);">Insurance help</a></li>
+                      </ul>
+
+
+                      <br/>
+                      <table class="table">
+                          <tr>
+                            <td class="bg-danger cs5">More Ideas About Us</td>
+                          </tr>
+                      </table>
+                      <ul class="cs6" >
+                            <li><a style="text-decoration:none;" href="javascript:enabled(return false);">Company to invest money in stock market and shares</a></li>
+
+                            <li><a style="text-decoration:none;" href="javascript:enabled(return false);">Insurance related queries related to anything like vehicle two-wheeler, four-wheeler</a></li>
+
+                            <li><a style="text-decoration:none;" href="javascript:enabled(return false);">Any Other related support</a></li>
+
+                            <li><a style="text-decoration:none;" href="javascript:enabled(return false);">Other Issues</a></li>
+                            <br/>
+                      </ul>
+                      </div>
+
+               </div>
+
+
+
+               <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" >
+                 <div>
+                      <table class="table">
+                          <tr>
+                            <td class="bg-danger cs5">More Information</td>
+                          </tr>
+                      </table>
+                       <dl class="cs6">
+                         <ul>
+                             <li><dt><a class="cs8" href="javascript:enabled(return false);">Company to invest money in stock and other</a></dt></li>
+                             <dl class="cs9">Pellentesque id nunc at leo vestibulum<br/> lobortis.</dl>
+                           </ul>
+                       </dl>
+
+
+                      <br/>
+                      <br/>
+                      <br/>
+                      <table class="table">
+                          <tr>
+                            <td class="bg-danger cs5">Search our URL`s</td>
+                          </tr>
+                      </table>
+                      <dl class="cs6">
+                        <ul>
+                            <li><a class="cs8" href="javascript:enabled(return false);">www.elit at tincitdunt/porta.com</a></li>
+                            <li><a class="cs8" href="javascript:enabled(return false);">www.vehiculapede/a/dui id.com</a></li>
+                              <li><a class="cs8" href="javascript:enabled(return false);">www.quisnulla.com</a></li>
+                          </ul>
+                      </dl>
+                      </div>
+
+               </div>
+
+
+               <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                 <br/>
+                     <img src="we.jpg" class="img-responsive hidden-sm hidden-xs"/>
+               </div>
+           </div>
+      </div>
+
+      <br/>
+      <br/>
+
+
+    <div class="container">
+        <div class="row">
+          <div class="col-lg-offset-1 col-lg-3 col-md-offset-1 col-md-3 col-sm-12 col-xs-12">
+
+                  <table class="table" style="background-color:darkkhaki;">
+                      <tr>
+                          <td colspan="3" style="background-color:darkolivegreen;color:white;font-size:18px;border:none;">&nbsp;&nbsp;PROJECTS<b> 2018</b></td>
+                      </tr>
+                      <tr>
+                         <td style="border:none;" class="col-sm-4 col-xs-4"><a href="javascript:enabled(return false);" onclick="func1()"><img title="Auto-mobile Project" src="1.jpg" class="img-responsive"/></a></td>
+                          <td style="border:none;" class="col-sm-4 col-xs-4"><a href="javascript:enabled(return false);" onclick="func1()"><img title="Construction Project" src="2.jpg" class="img-responsive"/></a></td>
+                          <td style="border:none;" class="col-sm-4 col-xs-4"><a href="javascript:enabled(return false);" onclick="func1()"><img title="Animation Project" src="3.jpg" class="img-responsive"/></a></td>
+                      </tr>
+
+                      <tr>
+                        <td colspan="3"  style="border:none;">
+                            <span class="h5 text-capitalize" style="color:palegoldenrod;"><b>We have for this year</b></span>
+                            <p style="color:white;font-size:13px;">Quisque laoreet, elit at tincidunt, porta, massa torr Porttitor at vehicula pede dui id enim. Pellentesque.</p>
+                             <button class="btn btn-warning pull-right">Read More</button>
+                          </td>
+
+                      </tr>
+                 </table>
+
+            </div>
+
+
+            <div class="col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-12 col-xs-12">
+                <table class="table">
+                    <tr>
+                     <td style="color:khaki; font-size:30px;border:none;border-bottom:1px dotted red;">
+                         Future Plans
+                    </td>
+                    </tr>
+
+                    <tr>
+                        <td style="border:none">
+                            <span style="color:orange;font-weight:bold; font-size:17px;">Sed semper, enim id frigilla posuere</span>
+
+                            <br/>
+                            <br/>
+                            <p style="color:khaki;font-family:cambria;font-size:14px;">For more information about stock , the galleries include items that are designed to coordinate with the overall look of your document.
+                                <br/>
+                                <br/>
+                                When you create pictures, charts, or diagrams, they also coordinate with your current document look. You can easily change the formatting of selected text in the document text by choosing a look for the selected text from the Quick Styles gallery on the Home tab. 
+
+                            </p>
+                        </td>
+
+                    </tr>
+                </table>
+            </div>
+
+
+            <div>
+            </div>
+        </div>
+    </div>
+
+
+<br/>
+<br/>
+
+
+<div class="container-fluid" style="background-color:darkkhaki;border-radius:2px;">
+    <div class="row">
+
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding-left:20px;">
+           <br/>
+            <table>
+
+            <tr>
+                <td>
+            <ul class="list-inline">
+                <li class="active"><a class="cs12" style="text-decoration:none;" href="index.html" class="text-capitalize">Home</a></li>
+                <li>|</li>
+                <li><a class="cs12" style="text-decoration:none;" href="about.html">About</a></li>
+                <li>|</li>
+                <li><a class="cs12" style="text-decoration:none;" href="service.html">Services</a></li>
+                <li>|</li>
+                <li><a class="cs12" style="text-decoration:none;" href="support.html">Support</a></li>
+                <li>|</li>
+                <li><a class="cs12" style="text-decoration:none;" href="javascript:enabled(return false);" onclick="chat()">Chat</a></li>
+                <li>|</li>
+                <li><a class="cs12" style="text-decoration:none;" href="history.html">History</a></li>
+                <li>|</li>
+                <li><a class="cs12" style="text-decoration:none;" href="contact.html">Contact</a></li>
+            </ul>
+            </td>
+           </tr>
+
+                <tr>
+                <td>
+                  <span class="cs17">Copyright &copy; 2018 All Rights Reserved</span>
+
+                 </td>
+                </tr>
+                <tr>
+                  <td>
+                      <br/>
+                      <span class="cs17">Powered by <a href="javascript:enabled(return false);" style="text-decoration:none;" class="cs12">TemplateKingdom.com</a></span>
+                  </td>
+                </tr>
+               </table>
+        </div>
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+   <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="bootstrap.min.js"></script>
+</body>
+</html>
