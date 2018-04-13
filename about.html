@@ -1,0 +1,262 @@
+<!doctype html>
+<html>
+    <head>
+        
+         <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="X-UA-Compatible" content="IE=edge"/>
+        <script type="text/javascript" src="jsfile.js"></script>
+        <link rel="stylesheet" type="text/css" href="bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="C:\Users\hp\Desktop\package\bootstrap-theme.min.css"/>
+         <link rel="stylesheet" type="text/css" href="cs1.css"/>
+    </head>
+<body>
+  <br/>
+     <div class="container-fluid">
+           <div class="row">
+               <div class="col-lg-offset-1 col-lg-2 col-md-offset-1 col-md-2 col-sm-3 col-xs-12">
+                 <a href="index.html">  <img src="asd.jpg" class="img-responsive"/></a>
+               </div>
+
+               <div class="col-lg-offset-2 col-lg-7  col-md-9 col-sm-9 col-xs-12">
+                      <div class="cs1">
+                          <form class="form-inline">
+                              <div class="form-group">
+                                  <label style="color:white;"><b>Member Login <span class="hidden-sm hidden-xs">:</span></b></label>
+                                  <input type="text" class="form-control" placeholder="Your Name" maxlength="25"/>
+                                  <input type="password" class="form-control cs2" maxlength="15" placeholder="***************"/>
+                                   <button class="btn text-uppercase cs2"><b>login</b></button>
+                              </div>
+                          </form>
+                      </div>
+               </div>
+           </div>
+     </div>
+
+
+
+       <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+
+                  <nav class="navbar" style="background-color:darkkhaki">
+                      <div class="container-fluid">
+                            <div class="navbar-header">
+                                   <button class="navbar-toggle btn-warning" data-toggle="collapse" data-target="#abc">
+                                        <span class="icon-bar bg-warning"></span>
+                                        <span class="icon-bar bg-warning"></span>
+                                        <span class="icon-bar bg-warning"></span>
+                                   </button>
+                            </div>
+
+                            <div class="navbar-collapse collapse" id="abc" >
+                                  <ul class="nav navbar-nav">
+
+                                       <li class="dropdown"><a href="index.html" class="dropdown-toggle" data-toggle="dropdown"><b class="text-capitalize">Menu&nbsp;<span class="caret"></span></b></a>
+                                              <ul class="dropdown-menu" style="background-color:khaki;">
+
+                                                       <li><a href="javascript:enabled(return false);">Our Benefits</a></li>
+                                                       <li><a href="javascript:enabled(return false);">What Our Future Plans</a></li>
+                                                       <li><a href="javascript:enabled(return false);">Our Success</a></li>
+                                                       <li><a href="javascript:enabled(return false);">Ratings</a></li>
+                                                       <li><a href="javascript:enabled(return false);">News</a></li>
+                                                       <li><a href="javascript:enabled(return false);">Testimonials</a></li>
+                                                       <li><a href="javascript:enabled(return false);">Comments</a></li>
+
+                                              </ul>
+                                       </li>
+                                        <li class="active"><a class="cs3" href="index.html" class="text-capitalize"><b>Home</b></a></li>
+                                       <li><a class="cs3" href="about.html"><b>About</b></a></li>
+                                       <li><a class="cs3" href="service.html"><b>Services</b></a></li>
+                                       <li><a class="cs3" href="support.html"><b>Support</b></a></li>
+                                       <li><a class="cs3" href="javascript:enabled(return false);" onclick="chat()"><b>Chat</b></a></li>
+                                       <li><a class="cs3" href="history.html"><b>History</b></a></li>
+                                       <li><a class="cs3" href="contact.html"><b>Contact</b></a></li>
+                                  </ul>
+
+                               <button class="btn btn-warning  navbar-right navbar-btn" data-toggle="modal" data-target="#signup">Signup</button>
+
+
+                            </div>
+
+
+
+
+
+                      </div>
+                  </nav>
+
+
+            </div>
+        </div>
+
+
+
+
+         <div class="modal" id="signup">
+             <div class="modal-dialog">
+                 <div class="modal-content" style="background-color:darkkhaki;">
+                     <div class="modal-header">
+                        <span class="h1">Package.com</span>
+                     </div>
+
+                     <div class="modal-body">
+                         <form>
+                             <div class="form-group">
+                                 <label>FirstName</label>
+                                 <input type="text" class="form-control" placeholder="FirstName" maxlength="50"/>
+                             </div>
+
+                             <div class="form-group">
+                                 <label>LastName</label>
+                                 <input type="text" class="form-control"placeholder="LastName" maxlength="50"/>
+                             </div>
+
+                             <div class="form-group">
+                                 <label>Email</label>
+                                 <input type="email" class="form-control"placeholder="Email" maxlength="50"/>
+                             </div>
+
+                               <div class="form-group">
+                                 <label>Password</label>
+                                 <input type="password" class="form-control" placeholder="password" maxlength="50"/>
+                             </div>
+
+                             <div>
+                                 <label class="text-capitalize">Gender</label>
+                                  <div>
+                                 <label class="radio-inline text-capitalize"><input type="radio" name="gender"/>Male</label>
+                                  <label class="radio-inline  text-capitalize"><input type="radio" name="gender"/>Female</label>
+                                 <label class="radio-inline  text-capitalize"><input type="radio" name="gender"/>Transgender</label>
+                               </div>
+                               <br/>
+                             </div>
+
+                             <div class="form-group">
+                               <label>Contact</label>
+                               <input type="text" class="form-control" placeholder="Contact Number" maxlength="50"/>
+                           </div>
+
+
+                           <div class="form-group">
+                             <label>Address</label>
+                             <textarea class="form-control" rows="3" placeholder="Address" maxlength="300"></textarea>
+                         </div>
+                         </form>
+                     </div>
+
+                     <div class="modal-footer">
+                        <button class="btn btn-default pull-right" data-dismiss="modal" style="margin-left:2px;">Cancel</button>
+
+                        <button class="btn btn-success pull-right">Submit</button>
+
+                     </div>
+                 </div>
+             </div>
+         </div>
+
+
+
+
+  <div class="container" >
+           <div class="row cs4">
+               <div class="col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-sm-12 col-xs-12">
+                   <br/>
+                   <table class="table">
+                       <tr>
+                           <td style="border-top:none;border-bottom:3px dotted darkkhaki;">
+                               <span class="h1"><b>Welcome to<span style="color:firebrick;"> Package</span></b></span>
+
+                           </td>
+                       </tr>
+
+                       <tr>
+                           <td style="border:none;">
+                              <p class="cs21">
+                                We are 25years old company that hadbeen active to help the people to fulfill their basic need. We provide all the services related to the security, housing, loan , insurance.On the Insert tab, the galleries include items that are designed to coordinate with the overall look of your document. You can use these galleries to insert tables, headers, footers, lists, cover pages, and other document building blocks. When you create pictures, charts, or diagrams, they also coordinate with your current document look. You can easily change the formatting of selected text in the document text by choosing a look for the selected text from the Quick Styles gallery on the Home tab. You can also format text directly by using the other controls on the Home tab. Most controls offer a choice of using the look from the current theme or using a format that you specify directly. To change the overall look of your document, choose new Theme elements on the Page Layout tab. To change the looks available in the Quick Style gallery, use the Change Current Quick Style Set command.
+                               </p>
+                               <ul style="list-style-type:square;">
+                                   <li class="cs21">Both the Themes gallery and the Quick Styles gallery provide reset commands so that you can always restore the look of your document to the original contained in your current template. </li>
+
+                                   <li class="cs21">On the Insert tab, the galleries include items that are designed to coordinate with the overall look of your document. You can use these galleries to insert tables, headers, footers, lists, cover pages, and other document building blocks.
+                                   </li>
+
+                                   <li class="cs21">
+                                       When you create pictures, charts, or diagrams, they also coordinate with your current document look.
+                                   </li>
+                               </ul>
+                           </td>
+                       </tr>
+                   </table>
+
+
+
+               </div>
+          </div>
+</div>
+
+
+
+
+
+
+           <br/>
+<br/>
+
+
+<div class="container-fluid" style="background-color:darkkhaki;border-radius:2px;">
+    <div class="row">
+
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding-left:20px;">
+           <br/>
+            <table>
+
+            <tr>
+                <td>
+            <ul class="list-inline">
+                <li class="active"><a class="cs12" style="text-decoration:none;" href="index.html" class="text-capitalize">Home</a></li>
+                <li>|</li>
+                <li><a class="cs12" style="text-decoration:none;" href="about.html">About</a></li>
+                <li>|</li>
+                <li><a class="cs12" style="text-decoration:none;" href="service.html">Services</a></li>
+                <li>|</li>
+                <li><a class="cs12" style="text-decoration:none;" href="support.html">Support</a></li>
+                <li>|</li>
+                <li><a class="cs12" style="text-decoration:none;" href="javascript:enabled(return false);" onclick="chat()">Chat</a></li>
+                <li>|</li>
+                <li><a class="cs12" style="text-decoration:none;" href="history.html">History</a></li>
+                <li>|</li>
+                <li><a class="cs12" style="text-decoration:none;" href="contact.html">Contact</a></li>
+            </ul>
+            </td>
+           </tr>
+
+                <tr>
+                <td>
+                  <span class="cs17">Copyright &copy; 2018 All Rights Reserved</span>
+
+                 </td>
+                </tr>
+                <tr>
+                  <td>
+                      <br/>
+                      <span class="cs17">Powered by <a href="javascript:enabled(return false);" style="text-decoration:none;" class="cs12">TemplateKingdom.com</a></span>
+                  </td>
+                </tr>
+               </table>
+        </div>
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+            <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+               <script type="text/javascript" src="bootstrap.min.js"></script>
+         </body>
+         </html>

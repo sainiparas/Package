@@ -1,0 +1,203 @@
+body{
+  background-color:#2B0D0B;
+}
+
+
+.cs1{
+  background-color:firebrick;
+  padding-top:10px;
+  padding-bottom:10px;
+ border-radius:5px;
+ border:4px ridge indianred;
+  text-align:center;
+}
+
+
+@media only screen and (max-width:768px) and (min-width:0px)
+{
+  .cs2{
+    margin-top:10px;
+
+  }
+}
+
+.cs3{
+  color:black;
+  font-weight:bold;
+}
+
+
+.cs4{
+  margin-top:-20px;
+  background-color:#E7DFA0;
+}
+
+.cs5{
+
+
+
+  font-weight:bold;
+  color:red;
+
+}
+
+.cs6{
+  list-style-type:square;
+  font-weight:bold;
+}
+
+.cs7{
+  text-decoration:none;
+}
+
+
+
+
+.cs8{
+  text-decoration:underline;
+  color:coral;
+}
+
+
+
+.cs9{
+  font-size:12px;
+}
+
+@media only screen and (max-width:1500px) and (min-width:992px)
+{
+  .cs10{
+    border-right:3px solid darkkhaki;
+  }
+}
+
+
+.cs12{
+    color:gray;
+    font-weight:bold;
+    text-transform:capitalize;
+    text-decoration:none;
+}
+
+
+
+
+.cs17{
+    color:#2f2f2f;
+    font-weight:bold;
+}
+
+
+.cs21{
+    font-family:cambria;font-size:15px;text-align:justify;
+}
+
+
+.cs24{
+    background-color:#E7DFA0;
+    font-weight:bold;
+}
+
+.cs25{
+    border:2px solid darkred;
+    text-align:justify;
+    padding:5px;
+   background-color:darkkhaki;
+}
+
+
+.cs26{
+  background-color:black;padding:10px;color:white;
+}
+
+
+.cs27{
+  font-family:cambria;
+  font-size:25px;
+}
+
+.cs28{
+  color:firebrick;
+  font-weight:normal;
+  font-size:20px;
+}
+
+.cs29{
+  list-style-type:square;
+}
+
+@media only screen and (max-width:992px) and (min-width:0px)
+{
+  .cs30{
+    padding:20px;
+
+  }
+}
+
+.cs32{
+  text-decoration:underline;
+}
+
+
+.cs33{
+    border:5px solid #2B0D0B;
+    text-align:center;
+    background-image:url('pik.gif');
+    background-size:cover;
+}
+
+@media only screen and (max-width:782px) and (min-width:750px)
+{
+    .cs33{
+        padding-top:100px;
+    }
+}
+
+@media only screen and (max-width:750px) and (min-width:650px)
+{
+    .cs33{
+        padding-top:70px;
+        
+    }
+}
+
+@media only screen and (max-width:650px) and (min-width:550px)
+{
+    .cs33{
+        padding-top:35px;
+        
+    }
+}
+
+
+@media only screen and (max-width:550px) and (min-width:450px)
+{
+    .cs33{
+        padding-top:20px;
+        
+    }
+}
+
+
+
+@media only screen and (max-width:450px) and (min-width:300px)
+{
+    .cs33{
+        padding-top:-50px;
+        
+        
+    }
+}
+
+
+.cs34{
+    font-family:cambria;font-weight:bold;
+    padding-left:20px;
+    padding-right:20px;
+    text-align:justify;
+}
+
+
+.cs35{
+    padding:5px;
+}
