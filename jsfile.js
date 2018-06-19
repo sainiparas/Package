@@ -40,3 +40,19 @@ function search()
             alert("Information about " + a + " donot exist right now.");
         }
 }
+
+
+
+function login()
+{
+  var a = document.getElementById("txt1").value;
+  var b = document.getElementById("txt2").value;
+  if((a == "") || (b == ""))
+   {
+     alert("Some input field is missing");
+   }
+   else
+   {
+      alert("Dear " + a + " please try after sometime.");
+   }
+}
